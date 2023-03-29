@@ -1,0 +1,11 @@
+void heapify(int array_in[], int array_size, int subtree_root_index)
+{
+…//code truncated for clarity
+if (left < array_size && array_in[left] > array_in[largest_value])
+{
+largest_value = left;
+}
+if (right < array_size && array_in[right] > array_in[largest_value]){
+largest_value = right;
+}
+}
